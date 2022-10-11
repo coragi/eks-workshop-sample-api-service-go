@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Olá Octank! Estamos em SA-EAST-1 - Brasil!"}
+		res := &response{Message: "DANILO - AWS! Estamos em SA-EAST-1 - Brasil!"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
